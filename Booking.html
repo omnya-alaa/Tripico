@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Booking | Tripico</title>
+        <link rel="stylesheet" href="Booking .css">
+    </head>
+    <body>
+        <main>
+            <h2>Book Your Trip Now</h2>
+            <form action="submit_booking.php" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form_color" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form_color" required>
+                </div>
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="form_color" required>
+                </div>
+                <div>
+                    <label for="destination">destination</label>
+                    <select id="destination" name="destination" class="form_color" required>
+                        <optgroup label="Egypt">
+                            <option value="Dahab">Dahab</option>
+                            <option value="Luxor Temple">Luxor Temple</option>
+                            <option value="Saladin Al-Ayyubi Citadel">Saladin Al-Ayyubi Citadel</option>
+                            <option value="Pyramids">Pyramids</option>
+                            <option value="Giftun Island">Giftun Island</option>
+                            <option value="Qaitbay Citadel">Qaitbay Citadel</option>
+                            <option value="Stanley Bridge">Stanley Bridge</option>
+                            <option value="Siwa oasis">Siwa oasis</option>
+                            <option value="Temple of Hatshepesut">Temple of Hatshepesut</option>
+                            <option value="Abu Simbel Temple">Abu Simbel Temple</option>
+                            <option value="Abdeen Palace">Abdeen Palace</option>
+                            <option value="Library of Alexandria">Library of Alexandria</option>
+                            <option value="Wadi Al-Rayan">Wadi Al-Rayan</option>
+                            <option value="Karnak Temple">Karnak Temple</option>
+                            <option value="Egyptian Museum">Egyptian Museum</option>
+                        </optgroup>
+                        <optgroup label="France">
+                            <option value="Eiffel tower">Eiffel tower</option>
+                            <option value="Louvre Museum">Louvre Museum</option>
+                            <option value="Notre Dame Cathedral">Notre Dame Cathedral</option>
+                            <option value="Palace of Versaillese">Palace of Versaillese</option>
+                            <option value="Disneyland Paris">Disneyland Paris</option>
+                            <option value="Mont Saint Michel">Mont Saint Michel</option>
+                            <option value="Arc de Triomphe">Arc de Triomphe</option>
+                            <option value="Champs Elysees">Champs Elysees</option>
+                            <option value="Nice city">Nice city</option>
+                            <option value="Lyon city">Lyon city</option>
+                            <option value="City of Marseille">City of Marseille</option>
+                            <option value="Bordeaux city">Bordeaux city</option>
+                            <option value="City of Strasbourg">City of Strasbourg</option>
+                            <option value="Chamonix city">Chamonix city</option>
+                            <option value="Loire Valley">Loire Valley</option>
+                        </optgroup>
+                        <optgroup label="Japan">
+                            <option value="Osaka Castle">Osaka Castle</option>
+                            <option value="Mount Fuji">Mount Fuji</option>
+                            <option value="Yokohama">Yokohama</option>
+                            <option value="Kanazawa">Kanazawa</option>
+                            <option value="Kobe">Kobe</option>
+                            <option value="Nara">Nara</option>
+                            <option value="Matsumoto">Matsumoto</option>
+                            <option value="Miyajima">Miyajima</option>
+                            <option value="Hakone">Hakone</option>
+                            <option value="Hondae">Hondae</option>
+                            <option value="Fukuoka">Fukuoka</option>
+                            <option value="Hokkaido">Hokkaido</option>
+                            <option value="Kyoto">Kyoto</option>
+                            <option value="Tokyo">Tokyo</option>
+                            <option value="Osaka">Osaka</option>
+                        </optgroup>
+                        <optgroup label="Italy">
+                            <option value="Sassi di Matera">Sassi di Matera</option>
+                            <option value="Doge's Palace">Doge's Palace</option>
+                            <option value="Galleria Vittorio Emanuele II">Galleria Vittorio Emanuele II</option>
+                            <option value="St. Peter's Basilica">St. Peter's Basilica</option>
+                            <option value="Trevi Fountain">Trevi Fountain</option>
+                            <option value="Alberobello">Alberobello</option>
+                            <option value="Duomo di Milano">Duomo di Milano</option>
+                            <option value="Piazza del Duomo">Piazza del Duomo</option>
+                            <option value="Amalfi Coast">Amalfi Coast</option>
+                            <option value="Grand Canal">Grand Canal</option>
+                            <option value="Positano">Positano</option>
+                            <option value="Amalfi Coast">Amalfi Coast</option>
+                            <option value="Tower of Pisa">Tower of Pisa</option>
+                            <option value="Colosseum">Colosseum</option>
+                            <option value="Dolomites">Dolomites</option>
+                        </optgroup>
+                        <optgroup label="Australia">
+                            <option value="Sydney Harbour Bridge">Sydney Harbour Bridge</option>
+                            <option value="Gold Coast">Gold Coast</option>
+                            <option value="Sydney Opera House">Sydney Opera House</option>
+                            <option value="King George Falls-Kimberley">King George Falls-Kimberley</option>
+                            <option value="Sydney Opera House">Sydney Opera House</option>
+                            <option value="Great Ocean Road">Great Ocean Road</option>
+                            <option value="Flinders Street Railway Station">Flinders Street Railway Station</option>
+                            <option value="Three Sisters walk">Three Sisters walk</option>
+                            <option value="Blue Heaven Beach">Blue Heaven Beach</option>
+                            <option value="Melbourne">Melbourne</option>
+                            <option value="Bourke Street">Bourke Street</option>
+                            <option value="State Library Victoria">State Library Victoria</option>
+                            <option value="South Bank Parklands">South Bank Parklands</option>
+                            <option value="Tower Eye">Tower Eye</option>
+                            <option value="Busselton Jetty">Busselton Jetty</option>
+                        </optgroup>
+                        <optgroup label="Spain">
+                            <option value="Basílica de la Sagrada Família">Basílica de la Sagrada Família</option>
+                            <option value="Palau de la Música Catalana">Palau de la Música Catalana</option>
+                            <option value="Park Güel">Park Güel</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Park Güel">Park Güel</option>
+                            <option value="Madrid">Madrid</option>
+                            <option value="Alhambra">Alhambra</option>
+                            <option value="Plaza de España">Plaza de España</option>
+                            <option value="Basílica de la Sagrada Família">Basílica de la Sagrada Família</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Castillo de La Calahorra">Castillo de La Calahorra</option>
+                            <option value="Casa Batlló">Casa Batlló</option>
+                            <option value="Royal Alcázar of Seville">Royal Alcázar of Seville</option>
+                            <option value="Royal Palance Of Madrid">Royal Palance Of Madrid</option>
+                            <option value="Casa Batlló">Casa Batlló</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <label for="date">Trip Date </label>
+                    <input type="date" id="date" name="date" class="form_color" required>
+                </div>
+                <button type="submit" id="submitbtn">Submit</button>
+            </form>
+        </main>
+        <script src="Booking.js"></script>
+    </body>
+</html>

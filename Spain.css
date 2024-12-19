@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    background: #257180;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+header h1 {
+    text-align: center;
+    font-family: "Alkatra", system-ui;
+    margin: 0;
+    font-size: 40px;
+}
+header:hover{
+    transform: scale(1.1);
+        transition: transform 0.3s ease;
+}
+.gallery {
+    width: 303px;
+    height: 400px;
+    margin-top: 20px;
+    background-color: #ddd;
+    box-shadow: 10px 10px 10px #a7a5a5;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+img.images {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 0;
+    border: 2px solid #ddd;
+    border-top-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+}
+img.images:hover {
+    transform: scale(1.1);
+        transition: transform 0.3s ease;
+}
+
+.gallery h1{
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 25px;
+}
+p{
+    color: rgb(71, 69, 69);
+    margin-left: 10px;
+    margin-top: 0;
+}
+.price{
+    padding-left: 10px;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 20px;
+    position: relative;
+    bottom: 55px;
+    left: 50px;
+}
+#outline{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+}
+.price2{
+    padding-left: 10px;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 20px;
+    position: relative;
+    bottom: 145px;
+    left: 195px;
+}
+.outline2{
+    width: 30px;
+    height: 25px;
+    padding: 10px;
+    position: relative;
+    bottom: 110px;
+    left: 170px;
+}

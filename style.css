@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-color: #B3C8CF;
+}
+div.divLinks{
+    width: 100%;
+    background-image: linear-gradient(#001F3F, #3A6D8C, #6A9AB0, #EAD8B1);
+    border-radius: 50px;
+    height: 350px;
+    box-shadow:10px 10px 10px #6fb3d2a8;
+    padding-top: 20PX;
+}
+h1{
+    
+    font-size: 4em;
+    text-align: center;
+    color: #F5F0BB;
+}
+.word{
+    color: #00337C;
+    text-shadow: 10px 10px 10px #00347c91;
+}
+ul.links{
+    list-style: none;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+
+}
+li.links{
+    display: inline;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+div.search-container{
+    position: absolute;
+    bottom: 207px;
+    left: 430px;
+    border-radius: 50px;
+    box-shadow:10px 10px 10px #6fb3d2a8;
+    margin-bottom: 10px;
+}
+#search-box{
+    width: 500px;
+    height: 30px;
+    border-radius: 50px;
+    border: hidden;
+    padding: 10px;
+    background-color: #DCF2F1;
+    font-size: 16px;
+    font-family: "Roboto Mono", monospace;
+}
+button[type="submit"]{
+    background-color: #4c70afb0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+button[type="submit"]:hover{
+    background-color: #4583a0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #740938;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: darkgray 5px 5px 5px 5px;
+}
+.search-icon{
+    position: absolute;
+    left: 470px;
+    bottom: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.button:hover{
+    background-color: #B03052;
+}
+span {
+    flex-grow: 1;
+    font-size:larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right, #012154, #024f4f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container {
+    display:flex;
+    align-items:start;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 10px #608cc19c;
+    border-radius: 10px;
+    margin-top: 0;
+    position: relative;
+    bottom: 20px;
+}
+.image{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #5a5050;
+    margin-right: 20px;
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover;
+}
+h3{
+    font-family: Helvetica;
+    background: linear-gradient(to right, #012154, #8ed3d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: #7599d3 5px 5px 5px;
+    position: relative;
+    left: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.flag{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 42px;
+    box-shadow: 10px 10px 10px #5a5050;
+}
